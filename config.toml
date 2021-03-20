@@ -40,7 +40,7 @@ theme = "terminal"
   [languages.en]
     languageName = "English"
     title = "ECOO Programming Contest"
-    subtitle = "A simple, retro theme for Hugo"
+    subtitle = "The ECOO Programming Contest is a contest which aims to provide computer science students an opportunity to demonstrate their skills and knowledge while representing themselves and their schools against other computer science students in the province."
     owner = ""
     keywords = ""
     menuMore = "Show more"
