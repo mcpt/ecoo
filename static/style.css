@@ -1,0 +1,8 @@
+.container {
+  margin: 0 auto;
+  border-left: 1px solid hsla(0,0%,100%,.1);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0;
+}
