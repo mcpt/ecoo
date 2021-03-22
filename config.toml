@@ -1,6 +1,6 @@
 baseURL = "https://ecoo.mcpt.ca/"
 languageCode = "en"
-title = "ECOO Programming Contest"
+title = "2021 ECOO Programming Contest"
 theme = "terminal"
 
 [params]
@@ -52,17 +52,3 @@ theme = "terminal"
     [languages.en.params.logo]
       logoText = "ECOO Programming Contest"
       logoHomeLink = "/"
-
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "0"
-        name = "Registration"
-        url = "/registration"
-      [[languages.en.menu.main]]
-        identifier = "1"
-        name = "Rules"
-        url = "/rules"
-      [[languages.en.menu.main]]
-        identifier = "2"
-        name = "Judge"
-        url = "https://judge.ecoo.mcpt.ca"
