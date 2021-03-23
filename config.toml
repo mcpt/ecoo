@@ -40,7 +40,7 @@ theme = "terminal"
   [languages.en]
     languageName = "English"
     title = "ECOO Programming Contest"
-    subtitle = "The ECOO Programming Contest is a contest which aims to provide computer science students an opportunity to demonstrate their skills and knowledge while representing themselves and their schools against other computer science students in the province."
+    subtitle = "The 2021 ECOO Programming Contest is a contest which aims to provide computer science students an opportunity to demonstrate their skills and knowledge while representing themselves and their schools against other computer science students in the province."
     owner = ""
     keywords = ""
     menuMore = "Show more"
@@ -50,5 +50,5 @@ theme = "terminal"
     missingBackButtonLabel = "Back to home page"
 
     [languages.en.params.logo]
-      logoText = "ECOO Programming Contest"
+      logoText = "2021 ECOO Programming Contest"
       logoHomeLink = "/"
