@@ -31,6 +31,10 @@ h1, h2, h3, h4, h5, h6 {
     border-left: 1px solid hsla(0,0%,0%,.1);
     border-right: 1px solid hsla(0,0%,0%,.1);
   }
+
+  footer img {
+    filter: invert();
+  }
 }
 
 .member {
@@ -66,6 +70,7 @@ h1, h2, h3, h4, h5, h6 {
 .copyright {
   margin: 0 auto;
 }
+
 footer img {
   margin: 0 auto;
   margin-top: 2rem;
