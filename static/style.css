@@ -21,28 +21,13 @@ h1, h2, h3, h4, h5, h6 {
   cursor: default;
 }
 
-@media (prefers-color-scheme: light) {
-  body {
-    color: black;
-    background-color: white;
-  }
-
-  .container {
-    border-left: 1px solid hsla(0,0%,0%,.1);
-    border-right: 1px solid hsla(0,0%,0%,.1);
-  }
-
-  footer img {
-    filter: invert();
-  }
-}
-
 .member {
   display: flex;
 }
 
 .member img {
   max-width: 12rem;
+  max-height: 12rem;
   border-radius: 15%;
   border: 2px solid white;
   margin: 1rem;
@@ -75,4 +60,24 @@ footer img {
   margin: 0 auto;
   margin-top: 2rem;
   width: 30%;
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    color: black;
+    background-color: white;
+  }
+
+  .container {
+    border-left: 1px solid hsla(0,0%,0%,.1);
+    border-right: 1px solid hsla(0,0%,0%,.1);
+  }
+
+  footer img {
+    filter: invert();
+  }
+
+  .member img {
+    border: 2px solid black;
+  }
 }
