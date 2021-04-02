@@ -52,3 +52,6 @@ theme = "terminal"
     [languages.en.params.logo]
       logoText = "2021 ECOO Programming Contest"
       logoHomeLink = "/"
+
+[markup.goldmark.renderer]
+unsafe = true
