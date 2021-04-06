@@ -7,6 +7,14 @@
   font-size: 2em;
 }
 
+#vert-logo {
+  position: absolute;
+  top: 0;
+  left: -140px;
+  height: 100%;
+  opacity: 0.5;
+}
+
 nav {
   font-weight: bold;
 }
