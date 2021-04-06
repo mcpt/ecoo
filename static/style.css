@@ -81,7 +81,7 @@ footer img {
     border-right: 1px solid hsla(0,0%,0%,.1);
   }
 
-  footer img {
+  footer img, #vert-logo {
     filter: invert();
   }
 
