@@ -5,6 +5,7 @@
     <li><a href="{{ "https://register.ecoo.mcpt.ca" | absURL }}">Registration</a></li>
     <li><a href="{{ "https://judge.ecoo.mcpt.ca" | absURL }}">Judge</a></li>
     <li><a href="{{ "/team" | absURL }}">Team</a></li>
+    <li><a href="{{ "/discord" | absURL }}">Discord</a></li>
 
     {{ if and $.Site.Params.showLanguageSelector (len $.Site.Home.AllTranslations) }}
       <div class="spacer"></div>
@@ -27,6 +28,7 @@
     <li><a href="{{ "https://register.ecoo.mcpt.ca" | absURL }}">Registration</a></li>
     <li><a href="{{ "https://judge.ecoo.mcpt.ca" | absURL }}">Judge</a></li>
     <li><a href="{{ "/team" | absURL }}">Team</a></li>
+    <li><a href="{{ "/discord" | absURL }}">Discord</a></li>
     {{ if and $.Site.Params.showLanguageSelector (len $.Site.Home.AllTranslations) }}
       <hr />
       {{ range $.Site.Home.AllTranslations }}
