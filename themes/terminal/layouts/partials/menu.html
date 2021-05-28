@@ -1,11 +1,10 @@
 <nav class="menu">
   <ul class="menu__inner menu__inner--desktop">
     <li><a href="{{ "/" | absURL }}">Home</a></li>
+    <li><a href="{{ "/leaderboard" | absURL }}">Leaderboard</a></li>
+    <li><a href="{{ "/problems" | absURL }}">Problems</a></li>
     <li><a href="{{ "rules.pdf" | absURL }}">Rules</a></li>
-    <li><a href="{{ "https://register.ecoo.mcpt.ca" | absURL }}">Registration</a></li>
-    <li><a href="{{ "https://judge.ecoo.mcpt.ca" | absURL }}">Judge</a></li>
     <li><a href="{{ "/team" | absURL }}">Team</a></li>
-    <li><a href="{{ "/discord" | absURL }}">Discord</a></li>
 
     {{ if and $.Site.Params.showLanguageSelector (len $.Site.Home.AllTranslations) }}
       <div class="spacer"></div>
@@ -24,11 +23,10 @@
 
   <ul class="menu__inner menu__inner--mobile">
     <li><a href="{{ "/" | absURL }}">Home</a></li>
+    <li><a href="{{ "/leaderboard" | absURL }}">Leaderboard</a></li>
+    <li><a href="{{ "/problems" | absURL }}">Problems</a></li>
     <li><a href="{{ "rules.pdf" | absURL }}">Rules</a></li>
-    <li><a href="{{ "https://register.ecoo.mcpt.ca" | absURL }}">Registration</a></li>
-    <li><a href="{{ "https://judge.ecoo.mcpt.ca" | absURL }}">Judge</a></li>
     <li><a href="{{ "/team" | absURL }}">Team</a></li>
-    <li><a href="{{ "/discord" | absURL }}">Discord</a></li>
     {{ if and $.Site.Params.showLanguageSelector (len $.Site.Home.AllTranslations) }}
       <hr />
       {{ range $.Site.Home.AllTranslations }}
