@@ -27,7 +27,7 @@ Below are links to PDFs of the 6 problems from the 2021 ECOO Programming Contest
       <td><a href="/problems/p4.pdf">PDF</a></td>
       <td><a href="/problems/p5.pdf">PDF</a></td>
       <td><a href="/problems/p6.pdf">PDF</a></td>
-      <td><a href="/problems/problems.pdf">problems.zip</a></td>
+      <td><a href="/problems/problems.zip">problems.zip</a></td>
     </tr>
     <tr>
       <th>Data</th>
